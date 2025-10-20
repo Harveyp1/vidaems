@@ -254,63 +254,8 @@
                     <p class="text-text-secondary max-w-3xl mx-auto mt-4">The heart of Vida Medical Transport is our people. From our leadership to our frontline paramedics and EMTs, every member of our team is committed to providing compassionate and expert care.</p>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                    <!-- Team Member Card -->
-                    <div class="text-center p-4">
-                        <img src="https://cdn-icons-png.freepik.com/512/18/18148.png" alt="Ruben Villareal" class="w-40 h-40 mx-auto rounded-full object-cover border-4 border-vida-gold mb-4 p-2 bg-white">
-                        <h3 class="text-xl font-bold text-white">Ruben Villareal</h3>
-                        <p class="text-vida-gold">Chief Operating Officer</p>
-                        <p class="text-text-secondary text-sm mt-2">Oversees all operational facets, ensuring quality medical transport is our foremost priority.</p>
-                    </div>
-                    <!-- Team Member Card -->
-                    <div class="text-center p-4">
-                        <img src="https://cdn-icons-png.freepik.com/512/18/18148.png" alt="Marco Anthony Flores" class="w-40 h-40 mx-auto rounded-full object-cover border-4 border-vida-gold mb-4 p-2 bg-white">
-                        <h3 class="text-xl font-bold text-white">Marco Anthony Flores</h3>
-                        <p class="text-vida-gold">Director of Operations</p>
-                        <p class="text-text-secondary text-sm mt-2">Leads our dedicated team, working closely with healthcare facilities to ensure we don't just meet standards, but surpass them.</p>
-                    </div>
-                     <!-- Team Member Card -->
-                    <div class="text-center p-4">
-                        <img src="https://cdn-icons-png.freepik.com/512/18/18148.png" alt="Aleida (Patty) Rangel" class="w-40 h-40 mx-auto rounded-full object-cover border-4 border-vida-gold mb-4 p-2 bg-white">
-                        <h3 class="text-xl font-bold text-white">Aleida (Patty) Rangel</h3>
-                        <p class="text-vida-gold">Dispatcher Communications</p>
-                        <p class="text-text-secondary text-sm mt-2">Delivers fast and quality responses to patients' needs, collaborating with ERs, doctors, and families for seamless transport arrangements.</p>
-                    </div>
-                     <!-- Team Member Card -->
-                    <div class="text-center p-4">
-                        <img src="https://cdn-icons-png.freepik.com/512/18/18148.png" alt="Anna Schuck" class="w-40 h-40 mx-auto rounded-full object-cover border-4 border-vida-gold mb-4 p-2 bg-white">
-                        <h3 class="text-xl font-bold text-white">Anna Schuck</h3>
-                        <p class="text-vida-gold">Dispatcher</p>
-                        <p class="text-text-secondary text-sm mt-2">Guarantees that patients receive top-notch care by ensuring direct communication between ambulances and patients for a smooth transition.</p>
-                    </div>
-                     <!-- Team Member Card -->
-                    <div class="text-center p-4">
-                        <img src="https://cdn-icons-png.freepik.com/512/18/18148.png" alt="Melissa Salazar" class="w-40 h-40 mx-auto rounded-full object-cover border-4 border-vida-gold mb-4 p-2 bg-white">
-                        <h3 class="text-xl font-bold text-white">Melissa Salazar</h3>
-                        <p class="text-vida-gold">Prior Auth Specialist</p>
-                        <p class="text-text-secondary text-sm mt-2">Bridges the gap between you and your transport services, working with insurers to secure the quality care necessary for your transport.</p>
-                    </div>
-                    <!-- Team Member Card -->
-                    <div class="text-center p-4">
-                        <img src="https://cdn-icons-png.freepik.com/512/18/18148.png" alt="Trevor Kocaoglan" class="w-40 h-40 mx-auto rounded-full object-cover border-4 border-vida-gold mb-4 p-2 bg-white">
-                        <h3 class="text-xl font-bold text-white">Trevor Kocaoglan</h3>
-                        <p class="text-vida-gold">Crew leader</p>
-                        <p class="text-text-secondary text-sm mt-2">Plays a pivotal role in bridging the gap between our dedicated medics and the administration, ensuring exceptional service that prioritizes patient safety.</p>
-                    </div>
-                    <!-- Team Member Card -->
-                    <div class="text-center p-4">
-                        <img src="https://cdn-icons-png.freepik.com/512/18/18148.png" alt="Genesis Medrano" class="w-40 h-40 mx-auto rounded-full object-cover border-4 border-vida-gold mb-4 p-2 bg-white">
-                        <h3 class="text-xl font-bold text-white">Genesis Medrano</h3>
-                        <p class="text-vida-gold">Credentialing Specialist</p>
-                        <p class="text-text-secondary text-sm mt-2">Conducts thorough reviews to make sure all licenses, personnel certifications, and insurance policies are current and compliant with state requirements.</p>
-                    </div>
-                    <!-- Team Member Card -->
-                    <div class="text-center p-4">
-                        <img src="https://cdn-icons-png.freepik.com/512/18/18148.png" alt="Raul Perez" class="w-40 h-40 mx-auto rounded-full object-cover border-4 border-vida-gold mb-4 p-2 bg-white">
-                        <h3 class="text-xl font-bold text-white">Raul Perez</h3>
-                        <p class="text-vida-gold">Administrative Assistant</p>
-                        <p class="text-text-secondary text-sm mt-2">Provides support on executing every aspect of our service at the highest quality, conducting regular quality checks on our ambulances.</p>
-                    </div>
+                <div id="team-grid-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Team members will be dynamically inserted here by JavaScript -->
                 </div>
             </div>
         </section>
@@ -605,7 +550,7 @@
 
         // --- Gemini API Logic ---
         const API_KEY = ""; // Keep this empty, it will be handled by the environment.
-        const API_URL_GEMINI_FLASH = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${AIzaSyD8rmJm0qj0jcs2X45CKIpLq2MzngokUBA}`;
+        const API_URL_GEMINI_FLASH = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${API_KEY}`;
         
         async function callGeminiAPI(payload, retries = 3, delay = 1000) {
             for (let i = 0; i < retries; i++) {
@@ -797,6 +742,84 @@
                     contactForm.reset();
                 });
             }
+            
+            // --- Team Member Rendering ---
+            const teamMembers = [
+                // Add the image URL for each team member in the 'imageUrl' field.
+                // If 'imageUrl' is left empty, the default icon will be used.
+                {
+                    name: 'Ruben Villareal',
+                    title: 'Chief Operating Officer',
+                    description: 'Oversees all operational facets, ensuring quality medical transport is our foremost priority.',
+                    imageUrl: '' 
+                },
+                {
+                    name: 'Marco Anthony Flores',
+                    title: 'Director of Operations',
+                    description: "Leads our dedicated team, working closely with healthcare facilities to ensure we don't just meet standards, but surpass them.",
+                    imageUrl: ''
+                },
+                {
+                    name: 'Aleida (Patty) Rangel',
+                    title: 'Dispatcher Communications',
+                    description: "Delivers fast and quality responses to patients' needs, collaborating with ERs, doctors, and families for seamless transport arrangements.",
+                    imageUrl: ''
+                },
+                {
+                    name: 'Anna Schuck',
+                    title: 'Dispatcher',
+                    description: 'Guarantees that patients receive top-notch care by ensuring direct communication between ambulances and patients for a smooth transition.',
+                    imageUrl: ''
+                },
+                {
+                    name: 'Melissa Salazar',
+                    title: 'Prior Auth Specialist',
+                    description: 'Bridges the gap between you and your transport services, working with insurers to secure the quality care necessary for your transport.',
+                    imageUrl: ''
+                },
+                {
+                    name: 'Trevor Kocaoglan',
+                    title: 'Crew leader',
+                    description: 'Plays a pivotal role in bridging the gap between our dedicated medics and the administration, ensuring exceptional service that prioritizes patient safety.',
+                    imageUrl: ''
+                },
+                {
+                    name: 'Genesis Medrano',
+                    title: 'Credentialing Specialist',
+                    description: 'Conducts thorough reviews to make sure all licenses, personnel certifications, and insurance policies are current and compliant with state requirements.',
+                    imageUrl: ''
+                },
+                {
+                    name: 'Raul Perez',
+                    title: 'Administrative Assistant',
+                    description: 'Provides support on executing every aspect of our service at the highest quality, conducting regular quality checks on our ambulances.',
+                    imageUrl: ''
+                }
+            ];
+
+            function renderTeamMembers() {
+                const container = document.getElementById('team-grid-container');
+                if (!container) return;
+                
+                const defaultImageUrl = 'https://cdn-icons-png.freepik.com/512/18/18148.png';
+                let htmlContent = '';
+
+                teamMembers.forEach(member => {
+                    const imageUrl = member.imageUrl || defaultImageUrl;
+                    htmlContent += `
+                        <div class="text-center p-4">
+                            <img src="${imageUrl}" alt="${member.name}" class="w-40 h-40 mx-auto rounded-full object-cover border-4 border-vida-gold mb-4 p-2 bg-white">
+                            <h3 class="text-xl font-bold text-white">${member.name}</h3>
+                            <p class="text-vida-gold">${member.title}</p>
+                            <p class="text-text-secondary text-sm mt-2">${member.description}</p>
+                        </div>
+                    `;
+                });
+
+                container.innerHTML = htmlContent;
+            }
+
+            renderTeamMembers(); // Call the function to build the team section
 
         });
     </script>

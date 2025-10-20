@@ -3,7 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vida Medical Transport - Ambulance Services</title>
+    
+    <!-- SEO Meta Tags -->
+    <title>Vida Medical Transport | 24/7 Ambulance Services in Weslaco, TX</title>
+    <meta name="description" content="Vida Medical Transport offers 24/7 emergency and non-emergency ambulance services in Weslaco, TX, and the Rio Grande Valley. We provide ALS, BLS, Critical Care, and wheelchair transport with compassionate, expert care.">
+    <meta name="keywords" content="ambulance service weslaco tx, medical transport rio grande valley, emergency medical services, non-emergency transport, wheelchair transport, als ambulance, bls ambulance, vida medical transport">
+    <link rel="canonical" href="https://www.vidamedicaltransport.com/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.vidamedicaltransport.com/">
+    <meta property="og:title" content="Vida Medical Transport | 24/7 Ambulance Services in Weslaco, TX">
+    <meta property="og:description" content="Reliable and compassionate emergency and non-emergency medical transport for the Rio Grande Valley.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/Harveyp1/vidaems/main/vidalogo.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.vidamedicaltransport.com/">
+    <meta property="twitter:title" content="Vida Medical Transport | 24/7 Ambulance Services in Weslaco, TX">
+    <meta property="twitter:description" content="Reliable and compassionate emergency and non-emergency medical transport for the Rio Grande Valley.">
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/Harveyp1/vidaems/main/vidalogo.png">
+
+    <!-- JSON-LD Structured Data for Local Business SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EmergencyService",
+      "name": "Vida Medical Transport",
+      "description": "Vida Medical Transport provides 24/7 emergency and non-emergency ambulance services, including Advanced Life Support (ALS), Basic Life Support (BLS), Critical Care Transport (CCT), bariatric, and wheelchair transport to Weslaco, TX and the surrounding Rio Grande Valley.",
+      "image": "https://raw.githubusercontent.com/Harveyp1/vidaems/main/vidalogo.png",
+      "url": "https://www.vidamedicaltransport.com/",
+      "telephone": "+1-956-380-0081",
+      "email": "contact@vidamedicaltransport.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "918 S Utah Ave",
+        "addressLocality": "Weslaco",
+        "addressRegion": "TX",
+        "postalCode": "78596",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 26.084224,
+        "longitude": -98.003518
+      },
+      "openingHours": "Mo-Su 00:00-23:59",
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Rio Grande Valley"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Medical Transport Services",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Emergency Medical Services" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Non-Emergency Medical Transport" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Critical Care Transport (CCT)" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Advanced Life Support (ALS)" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Basic Life Support (BLS)" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wheelchair Transport" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bariatric Transport" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Event Medical Standby" } }
+        ]
+      }
+    }
+    </script>
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -102,16 +168,16 @@
     <!-- Header -->
     <header id="header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="#" data-target="home" class="nav-trigger">
+            <a href="#home" class="nav-trigger">
                 <img src="https://raw.githubusercontent.com/Harveyp1/vidaems/main/vidalogo.png" alt="Vida Medical Transport Logo" class="h-12">
             </a>
             <div class="hidden md:flex items-center space-x-8">
-                <a href="#" data-target="home" class="nav-link nav-trigger active">Home</a>
-                <a href="#" data-target="services" class="nav-link nav-trigger text-white hover:text-vida-gold">Services</a>
-                <a href="#" data-target="team" class="nav-link nav-trigger text-white hover:text-vida-gold">Our Team</a>
-                <a href="#" data-target="impact" class="nav-link nav-trigger text-white hover:text-vida-gold">Our Impact</a>
-                <a href="#" data-target="about" class="nav-link nav-trigger text-white hover:text-vida-gold">About Us</a>
-                <a href="#" data-target="contact" class="nav-link nav-trigger text-white hover:text-vida-gold">Contact Us</a>
+                <a href="#home" class="nav-link nav-trigger active">Home</a>
+                <a href="#services" class="nav-link nav-trigger text-white hover:text-vida-gold">Services</a>
+                <a href="#team" class="nav-link nav-trigger text-white hover:text-vida-gold">Our Team</a>
+                <a href="#impact" class="nav-link nav-trigger text-white hover:text-vida-gold">Our Impact</a>
+                <a href="#about" class="nav-link nav-trigger text-white hover:text-vida-gold">About Us</a>
+                <a href="#contact" class="nav-link nav-trigger text-white hover:text-vida-gold">Contact Us</a>
             </div>
             <a href="tel:+19563800081" class="hidden md:inline-block gradient-btn text-white font-bold py-2 px-6 rounded-full">
                 Call Dispatch
@@ -124,12 +190,12 @@
         </nav>
         <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden md:hidden bg-vida-dark">
-            <a href="#" data-target="home" class="nav-trigger block py-3 px-6 text-text-primary hover:bg-card-bg">Home</a>
-            <a href="#" data-target="services" class="nav-trigger block py-3 px-6 text-text-primary hover:bg-card-bg">Services</a>
-            <a href="#" data-target="team" class="nav-trigger block py-3 px-6 text-text-primary hover:bg-card-bg">Our Team</a>
-            <a href="#" data-target="impact" class="nav-trigger block py-3 px-6 text-text-primary hover:bg-card-bg">Our Impact</a>
-            <a href="#" data-target="about" class="nav-trigger block py-3 px-6 text-text-primary hover:bg-card-bg">About Us</a>
-            <a href="#" data-target="contact" class="nav-trigger block py-3 px-6 text-text-primary hover:bg-card-bg">Contact Us</a>
+            <a href="#home" class="nav-trigger block py-3 px-6 text-text-primary hover:bg-card-bg">Home</a>
+            <a href="#services" class="nav-trigger block py-3 px-6 text-text-primary hover:bg-card-bg">Services</a>
+            <a href="#team" class="nav-trigger block py-3 px-6 text-text-primary hover:bg-card-bg">Our Team</a>
+            <a href="#impact" class="nav-trigger block py-3 px-6 text-text-primary hover:bg-card-bg">Our Impact</a>
+            <a href="#about" class="nav-trigger block py-3 px-6 text-text-primary hover:bg-card-bg">About Us</a>
+            <a href="#contact" class="nav-trigger block py-3 px-6 text-text-primary hover:bg-card-bg">Contact Us</a>
             <a href="tel:+19563800081" class="nav-trigger block py-3 px-6 text-white gradient-btn font-semibold text-center">Call Dispatch</a>
         </div>
     </header>
@@ -154,7 +220,7 @@
             <div class="container mx-auto px-6">
                 <div class="text-center mb-12">
                     <h2 class="text-3xl md:text-4xl font-display font-bold text-vida-gold">Our Comprehensive Medical Transport Services</h2>
-                    <p class="text-text-secondary max-w-3xl mx-auto mt-4">Vida Medical Transport offers a full spectrum of medical transportation solutions, each tailored to the specific clinical needs of our patients. From local emergencies to long-distance transfers, our commitment to safety, quality care, and compassion is unwavering.</p>
+                    <p class="text-text-secondary max-w-3xl mx-auto mt-4">Vida Medical Transport offers a full spectrum of medical transportation solutions, each tailored to the specific clinical needs of our patients. From local emergencies in Weslaco to long-distance transfers across Texas, our commitment to safety, quality care, and compassion is unwavering.</p>
                 </div>
 
                 <!-- Core Services -->
@@ -264,7 +330,7 @@
         <section id="impact" class="page-content py-20 bg-vida-dark">
              <div class="container mx-auto px-6">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-display font-bold text-vida-gold">Data-Driven Care: Why Every Second Counts</h2>
+                    <h2 class="text-3xl md:text-4xl font-display font-bold text-vida-gold">Data-Driven Care in the Rio Grande Valley</h2>
                     <p class="text-text-secondary max-w-3xl mx-auto mt-4">Emergency Medical Services are a cornerstone of public health. Our operations are guided by established principles and studies that demonstrate the undeniable link between rapid response and patient outcomes.</p>
                 </div>
 
@@ -308,7 +374,7 @@
 
                 <div class="grid lg:grid-cols-5 gap-12 items-center">
                     <div class="lg:col-span-2">
-                        <img src="https://raw.githubusercontent.com/Harveyp1/vidaems/main/835e5a10-ff01-4252-b000-f357dda51ed6.png" alt="Vida EMS Team" class="rounded-lg shadow-lg object-cover h-full w-full">
+                        <img src="https://raw.githubusercontent.com/Harveyp1/vidaems/main/835e5a10-ff01-4252-b000-f357dda51ed6.png" alt="The Vida Medical Transport team of paramedics and EMTs in Weslaco, TX" class="rounded-lg shadow-lg object-cover h-full w-full">
                     </div>
                     <div class="lg:col-span-3">
                         <div class="bg-vida-dark p-8 rounded-lg">
@@ -342,7 +408,7 @@
                 </div>
 
                  <div class="mt-20">
-                    <h3 class="text-3xl md:text-4xl font-display font-bold text-vida-gold text-center mb-12">Our Headquarters</h3>
+                    <h3 class="text-3xl md:text-4xl font-display font-bold text-vida-gold text-center mb-12">Our Headquarters in Weslaco, TX</h3>
                      <div class="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto bg-vida-dark p-8 rounded-lg shadow-lg">
                         <!-- Left Column: Info -->
                         <div>
@@ -387,7 +453,7 @@
         <section id="contact" class="page-content py-20 bg-vida-dark">
              <div class="container mx-auto px-6">
                  <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-display font-bold text-vida-gold">Contact Us</h2>
+                    <h2 class="text-3xl md:text-4xl font-display font-bold text-vida-gold">Contact Vida Medical Transport</h2>
                     <p class="text-text-secondary max-w-3xl mx-auto mt-4">We are here for you 24/7. Whether you need to schedule a transport, have a billing question, or require immediate emergency assistance, please don't hesitate to reach out.</p>
                 </div>
 
@@ -449,11 +515,11 @@
                 <div>
                     <h3 class="font-display text-lg font-semibold mb-4">Quick Links</h3>
                     <ul class="space-y-2">
-                        <li><a href="#" data-target="services" class="nav-trigger hover:text-vida-gold text-gray-400">Services</a></li>
-                        <li><a href="#" data-target="team" class="nav-trigger hover:text-vida-gold text-gray-400">Our Team</a></li>
-                        <li><a href="#" data-target="impact" class="nav-trigger hover:text-vida-gold text-gray-400">Our Impact</a></li>
-                        <li><a href="#" data-target="about" class="nav-trigger hover:text-vida-gold text-gray-400">About Us</a></li>
-                        <li><a href="#" data-target="contact" class="nav-trigger hover:text-vida-gold text-gray-400">Contact Us</a></li>
+                        <li><a href="#services" class="nav-trigger hover:text-vida-gold text-gray-400">Services</a></li>
+                        <li><a href="#team" class="nav-trigger hover:text-vida-gold text-gray-400">Our Team</a></li>
+                        <li><a href="#impact" class="nav-trigger hover:text-vida-gold text-gray-400">Our Impact</a></li>
+                        <li><a href="#about" class="nav-trigger hover:text-vida-gold text-gray-400">About Us</a></li>
+                        <li><a href="#contact" class="nav-trigger hover:text-vida-gold text-gray-400">Contact Us</a></li>
                     </ul>
                 </div>
                 <div>
@@ -487,6 +553,20 @@
             </div>
             <div id="ai-modal-body" class="p-6 text-text-secondary max-h-[60vh] overflow-y-auto">
                 <!-- Loading indicator or content goes here -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- AI Disclaimer Modal -->
+    <div id="disclaimer-modal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-[101]" style="display: none;">
+        <div class="bg-card-bg rounded-lg shadow-xl max-w-lg w-full m-4 text-center">
+            <div class="p-6">
+                <i class="fas fa-exclamation-triangle text-4xl text-vida-gold mb-4"></i>
+                <h3 class="text-2xl font-display font-bold text-white mb-4">Important Disclaimer</h3>
+                <p class="text-text-secondary mb-6">The information provided by our AI features is for informational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of a qualified health provider with any questions you may have regarding a medical condition.</p>
+                <button id="acknowledge-disclaimer-btn" class="gradient-btn text-white font-bold py-3 px-8 rounded-full w-full">
+                    Acknowledge & Proceed
+                </button>
             </div>
         </div>
     </div>
@@ -549,7 +629,7 @@
         }
 
         // --- Gemini API Logic ---
-        const API_KEY = ""; // Keep this empty, it will be handled by the environment.
+        const API_KEY = "AIzaSyD8rmJm0qj0jcs2X45CKIpLq2MzngokUBA";
         const API_URL_GEMINI_FLASH = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${API_KEY}`;
         
         async function callGeminiAPI(payload, retries = 3, delay = 1000) {
@@ -580,6 +660,25 @@
 
         function hideModal() {
             document.getElementById('ai-modal').style.display = 'none';
+        }
+        
+        let pendingAiFunction = null;
+
+        function showDisclaimerModal(nextFunction) {
+            pendingAiFunction = nextFunction;
+            document.getElementById('disclaimer-modal').style.display = 'flex';
+        }
+        
+        function hideDisclaimerModal() {
+            document.getElementById('disclaimer-modal').style.display = 'none';
+        }
+
+        function executeAiFunction(aiFunction) {
+            if (sessionStorage.getItem('aiDisclaimerAcknowledged') === 'true') {
+                aiFunction();
+            } else {
+                showDisclaimerModal(aiFunction);
+            }
         }
 
         async function handleGetRecommendation() {
@@ -680,8 +779,10 @@
             const closeModalBtn = document.getElementById('close-ai-modal');
             const aiModal = document.getElementById('ai-modal');
             const contactForm = document.getElementById('contact-form');
+            const acknowledgeDisclaimerBtn = document.getElementById('acknowledge-disclaimer-btn');
 
             const switchPage = (targetId) => {
+                if (!targetId) return;
                 pageContents.forEach(page => page.classList.remove('active'));
                 const targetPage = document.getElementById(targetId);
                 if (targetPage) {
@@ -695,18 +796,30 @@
                 }
                 navLinks.forEach(link => {
                     link.classList.remove('active');
-                    if (link.dataset.target === targetId) link.classList.add('active');
+                    if (link.hash === '#' + targetId) link.classList.add('active');
                 });
                 mobileMenu.classList.add('hidden');
                 window.scrollTo(0, 0);
             };
-
+            
+            // Handle navigation clicks
             navTriggers.forEach(trigger => {
                 trigger.addEventListener('click', (e) => {
                     e.preventDefault();
-                    switchPage(e.currentTarget.dataset.target);
+                    const targetId = e.currentTarget.hash.substring(1);
+                    window.location.hash = targetId; // This will trigger the hashchange event
                 });
             });
+
+            // Handle hash changes (for direct linking and back/forward buttons)
+            window.addEventListener('hashchange', () => {
+                 const targetId = window.location.hash.substring(1) || 'home';
+                 switchPage(targetId);
+            });
+            
+            // Initial page load handler
+            const initialTargetId = window.location.hash.substring(1) || 'home';
+            switchPage(initialTargetId);
 
             window.addEventListener('scroll', () => {
                 header.classList.toggle('header-scrolled', window.scrollY > 50);
@@ -717,27 +830,25 @@
             });
             
             // Event Listeners for Gemini Features
-            if(getRecommendationBtn) {
-                getRecommendationBtn.addEventListener('click', handleGetRecommendation);
-            }
-            if(getHealthFactBtn) {
-                getHealthFactBtn.addEventListener('click', handleGetHealthFact);
-            }
-            if(closeModalBtn) {
-                closeModalBtn.addEventListener('click', hideModal);
-            }
-            if(aiModal) {
-                 aiModal.addEventListener('click', (e) => {
-                    if (e.target === aiModal) {
-                        hideModal();
+            if(getRecommendationBtn) getRecommendationBtn.addEventListener('click', () => executeAiFunction(handleGetRecommendation));
+            if(getHealthFactBtn) getHealthFactBtn.addEventListener('click', () => executeAiFunction(handleGetHealthFact));
+            if(closeModalBtn) closeModalBtn.addEventListener('click', hideModal);
+            if(aiModal) aiModal.addEventListener('click', (e) => { if (e.target === aiModal) hideModal(); });
+            
+            if(acknowledgeDisclaimerBtn) {
+                acknowledgeDisclaimerBtn.addEventListener('click', () => {
+                    sessionStorage.setItem('aiDisclaimerAcknowledged', 'true');
+                    hideDisclaimerModal();
+                    if (typeof pendingAiFunction === 'function') {
+                        pendingAiFunction();
+                        pendingAiFunction = null; // Reset it
                     }
                 });
             }
+
              if (contactForm) {
                 contactForm.addEventListener('submit', (e) => {
                     e.preventDefault();
-                    // This is a dummy form submission handler.
-                    // In a real application, you would send this data to a server.
                     showModal('Inquiry Sent', '<p>Thank you for your message. We have received your inquiry and will get back to you shortly.</p>');
                     contactForm.reset();
                 });
@@ -745,8 +856,6 @@
             
             // --- Team Member Rendering ---
             const teamMembers = [
-                // Add the image URL for each team member in the 'imageUrl' field.
-                // If 'imageUrl' is left empty, the default icon will be used.
                 {
                     name: 'Ruben Villareal',
                     title: 'Chief Operating Officer',
@@ -808,7 +917,7 @@
                     const imageUrl = member.imageUrl || defaultImageUrl;
                     htmlContent += `
                         <div class="text-center p-4">
-                            <img src="${imageUrl}" alt="${member.name}" class="w-40 h-40 mx-auto rounded-full object-cover border-4 border-vida-gold mb-4 p-2 bg-white">
+                            <img src="${imageUrl}" alt="Photo of ${member.name}, ${member.title} at Vida Medical Transport" class="w-40 h-40 mx-auto rounded-full object-cover border-4 border-vida-gold mb-4 p-2 bg-white">
                             <h3 class="text-xl font-bold text-white">${member.name}</h3>
                             <p class="text-vida-gold">${member.title}</p>
                             <p class="text-text-secondary text-sm mt-2">${member.description}</p>
